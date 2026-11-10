@@ -1,0 +1,29 @@
+# Dependencias y builds
+node_modules/
+.next/
+out/
+dist/
+build/
+.expo/
+*.tsbuildinfo
+
+# Secretos (nunca subir)
+.env
+.env.*
+!.env.example
+*.pem
+*.p8
+*.p12
+*.mobileprovision
+*.keystore
+*.jks
+google-services*.json
+GoogleService-Info.plist
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Material pesado de clientes (guardar en Drive)
+clientes/*/material-original/
